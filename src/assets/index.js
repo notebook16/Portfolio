@@ -20,6 +20,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.webp";
+import strem from "./tech/strem.png";
+import tensor from "./tech/tensor.png";
+import sck from "./tech/sck.png"
+import jup from "./tech/jup.png";
+import numpy from "./tech/numpy.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -27,6 +33,12 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import tripstay from "./tripstay.png";
+import weatherApp from "./weatherApp.png";
+import tree from "./tree.jpeg";
+import spotify from "./spotify.png"
+import rt from "./rt.jpg"
+import salary from "./salary.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -59,4 +71,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  tripstay,
+  weatherApp,
+  tree,
+  spotify,
+  rt,
+  salary,
+  python,
+  strem,
+  tensor,
+  sck,
+  jup,
+  numpy,
 };

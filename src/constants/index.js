@@ -23,6 +23,18 @@ import {
     jobit,
     tripguide,
     threejs,
+    tripstay,
+    weatherApp,
+    tree,
+    spotify,
+    rt,
+    salary,
+    python,
+    strem,
+    tensor,
+    sck,
+    jup,
+    numpy,
   } from "../assets";
   
   export const navLinks = [
@@ -59,7 +71,7 @@ import {
     },
   ];
   
-  const technologies = [
+  const webTechnologies = [
     {
       name: "HTML 5",
       icon: html,
@@ -72,10 +84,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+   
     {
       name: "React JS",
       icon: reactjs,
@@ -96,22 +105,39 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
+
+ 
+  ];
+  
+  const mlTechnologies = [
+   
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "python",
+      icon: python,
     },
+
     {
-      name: "git",
-      icon: git,
+      name: "strem",
+      icon: strem,
     },
+
     {
-      name: "figma",
-      icon: figma,
+      name: "tensor",
+      icon: tensor,
     },
+
+   
+
     {
-      name: "docker",
-      icon: docker,
+      name: "jup",
+      icon: jup,
     },
+
+    {
+      name: "numpy",
+      icon: numpy,
+    },
+  
   ];
   
   const experiences = [
@@ -122,23 +148,23 @@ import {
       iconBg: "#383E56",
       date: "March 2023 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Actively participated in Google Developer Student Club (GDSC) UCER, collaborating with peers on various tech-driven projects and events.",
+        "Contributed to organizing workshops and hackathons, promoting the latest technologies like AI, ML, cloud computing, and web development.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "GFG Campus Embasdaur",
+      title: "Campus Ambassador at GeeksforGeeks (GFG)",
       company_name: "GeeksForGeeks",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "june 2024 - oct 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Represented GeeksforGeeks (GFG) on campus, promoting their educational resources and programs to enhance students' technical knowledge.",
+        "Organized and conducted workshops, webinars, and coding events to help students improve their problem-solving and coding skills.",
+        "Facilitated communication between GFG and students, ensuring the effective dissemination of GFG's latest courses, contests, and career-building opportunities.",
+        "Strengthened leadership and communication skills while building a community of learners interested in computer science and technology.",
       ],
     },
     
@@ -174,12 +200,12 @@ import {
   const projects = [
     {
       category: "web-development",
-      name: "Car Rent",
+      name: "TripStay",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A full-stack web app for listing hotels with secure user authentication and authorization. Users can browse, filter, and book hotels, while admins manage listings and user access.",
       tags: [
         {
-          name: "react",
+          name: "full-stack",
           color: "blue-text-gradient",
         },
         {
@@ -187,57 +213,124 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "EJS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tripstay,
+      source_code_link: "https://tripstay1-0.onrender.com",
     },
     {
-      category: "machine-learning",
-      name: "Job IT",
+      category: "web-development",
+      name: "weather App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A simple weather app that lets users check the current weather by entering a city name. It displays temperature, weather conditions, and other details, making it easy to stay updated on the go.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "API",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: weatherApp,
+      source_code_link: "https://weather-app-s484.onrender.com",
     },
     {
-      category: "machine-learning", 
-      name: "Trip Guide",
+      category: "web-development",
+      name: "tree visualizer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A tree visualizer that allows users to create and explore data structures like binary trees visually. Users can input values, see the tree's structure, and understand its traversal in an interactive and intuitive way.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "js",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: tree,
+      source_code_link: "https://github.com/notebook16/Tree-Visualizer-main",
+    },
+    {
+      category: "web-development",
+      name: "music player",
+      description:
+        "A Spotify-inspired music app frontend that lets users explore playlists, browse songs, and view album details. Designed to replicate the look and feel of Spotify for an engaging music discovery experience.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spotify,
+      source_code_link: "https://github.com/notebook16/css-spotify",
+    },
+
+    {
+      category: "machine-learning",
+      name: "RT sign language detection",
+      description:
+        "An ML model that translates sign language gestures into text or speech, enabling accessible communication for individuals with hearing or speech impairments.",
+      tags: [
+        {
+          name: "tensorflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rt,
+      source_code_link: "https://github.com/notebook16/realtime-sign-language-detection",
+    },
+    {
+      category: "machine-learning",
+      name: "salary prediction LR model",
+      description:
+        "A linear regression ML model that predicts salaries based on features like experience, education, and skills, providing accurate insights for career planning and recruitment.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scklearn",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: salary,
+      source_code_link: "https://github.com/notebook16/notebook16-Linear-Regression-model-for-salary-prediction",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, webTechnologies , mlTechnologies, experiences, testimonials, projects };

@@ -57,12 +57,10 @@ const About = () => {
       variants={fadeIn("", "", 0.1,1)}
       className="mt-4 text-secondary text-[17px]
       max-w-31 leading-[30px]">
-      Lorem ipsum dolor sit amet consectetur 
-      adipisi
-      cing elit. Modi tenetur beatae nisi iure 
-      iste olorum adipisci od
-      it laboriosam dolore, in impedit molestias 
-      soluta, illum maxime quam illo voluptas suscipit est.  
+
+"I am a B-Tech student in CSE with a focus on AI/ML. I create ML models, full-stack applications, and 3D websites. 
+With expertise in building interactive frontends and robust backends,
+ I ensure long-term scalability and maintenance. A passionate DSA enthusiast, I thrive on solving complex problems."  
 
       </motion.p> 
 
